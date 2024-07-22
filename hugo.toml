@@ -1,0 +1,123 @@
+baseURL = 'https://example.org/'
+languageCode = 'de-de'
+DefaultContentLanguage = "de"
+title = 'Lena-Maria-Kosack'
+
+# theme as hugo module
+#theme = "github.com/lxndrblz/anatole"
+# theme as git submodule
+theme = "anatole"
+
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+# Syntax highlighting
+pygmentsUseClasses = true   
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+# Localized dates requires Hugo version 0.87.0
+localizedDates = false
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+        unsafe=true
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+[[related.indices]]
+  name = 'keywords'
+  weight = 100
+[[related.indices]]
+  name = 'tags'
+  weight = 80
+
+[services]
+# Enable Disqus.Disqus.Shortname
+  [services.disqus]
+    #shortname = 'your-disqus-shortname'
+# Google Analytics
+  [services.googleAnalytics]
+    #ID = 'G-MEASUREMENT_ID'
+
+[params]
+title = "Lena Maria Kosack"
+author = "Kevin Frey"
+shorttags = "Sopranistin · Chorische Stimmbildung · Gesangsunterricht · Sprechtraining"
+description = "Hallo! Ich bin Lena!"
+profilePicture = "lena.jpg"
+favicon = "favicons/"
+# example ["css/custom.css"]
+customCss = []
+# example ["js/custom.js"]
+customJs = [] 
+mainSections = ["concerts"]
+doNotLoadAnimations = false
+# Form Spree Contact Form
+#contactFormAction = "https://formspree.io/f/your-form-hash-here"
+#contactFormReCaptcha = "your-site-key-here"
+# Google Fonts
+#googleFonts = ["Indie+Flower", "Roboto:ital,wght@0,100;0,400;0,700;1,400"]
+# Google Site Verify
+#googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+singleDateFormat = "2/1/2006"
+indexDateFormat = "2/1/2006"
+listDateFormat = "2/1/2006"
+# Commento Comments
+# CommentoURL = "https://commento.example.com/js/commento.js"
+# Read More links for truncated summaries
+readMore = true
+# postSectionName = "blog"
+# relatedPosts = true
+# numberOfRelatedPosts = 3
+
+[[params.socialIcons]]
+icon = "fa-brands fa-instagram"
+title = "instagram"
+url = "https://www.instagram.com/soprano_concert_earlymusic/?hl=de"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:lenamaria.kosack@gmx.de"
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Concerts"
+  identifier = "concerts"
+  weight = 200
+  url = "/concerts/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+
+  [[menu.main]]
+  name = "Engagements"
+  weight = 400
+  identifier = "engagements"
+  url = "/engagements/"
+
+  [[menu.main]]
+  name = "Rezenzionen"
+  weight = 500
+  identifier = "rezenzionen"
+  url = "/rezenzionen/"
