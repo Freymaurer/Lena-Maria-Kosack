@@ -32,10 +32,9 @@
     &-title {
       display: inline-block;
       flex: 0.96;
-      text-transform: uppercase;
 
       @include themed() {
-        color: t('primary');
+        color: t('text');
       }
       &:hover {
         @include themed() {

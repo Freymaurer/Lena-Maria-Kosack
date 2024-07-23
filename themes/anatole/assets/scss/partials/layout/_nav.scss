@@ -17,7 +17,7 @@
     width: 100%;
 
     @include themed() {
-      background-color: t('primary-lighter');
+      background-color: t('primary');
     }
 
     @include desktop {
@@ -25,7 +25,7 @@
       padding: $py-desktop 30px;
 
       @include themed() {
-        background-color: t('accent');
+        background-color: t('primary');
       }
 
       &--end {
@@ -39,6 +39,12 @@
       text-transform: uppercase;
       text-align: center;
       white-space: nowrap;
+
+      a {
+        @include themed() {
+          color: t('bg')
+        }
+      }
 
       @include desktop {
         padding-top: 0;
@@ -62,7 +68,7 @@
 
       @include desktop {
         @include themed() {
-          border-bottom: 1px solid t('primary');
+          border-bottom: 1px solid t('primary-lighter');
         }
       }
     }

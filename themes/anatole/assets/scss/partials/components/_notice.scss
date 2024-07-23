@@ -3,30 +3,30 @@
   flex-direction: column;
 
   @include themed() {
-    background-color: mix(t('info'), t('accent'), 40%);
+    background-color: mix(t('info'), t('primary'), 80%);
   }
 
   &--update {
     @include themed() {
-      background-color: mix(t('success'), t('accent'), 40%);
+      background-color: mix(t('success'), t('primary'), 80%);
     }
   }
 
   &--warning {
     @include themed() {
-      background-color: mix(t('danger'), t('accent'), 40%);
+      background-color: mix(t('danger'), t('primary'), 40%);
     }
   }
 
   &__title {
     background-color: t('info');
-    align-self: flex-end;
+    align-self: flex-start;
     font-weight: 300;
     letter-spacing: 0.025em;
     padding: 0.2rem 0.5rem 0.2rem 0.5rem;
 
     @include themed() {
-      color: t('accent');
+      color: t('text');
     }
 
     &--update {

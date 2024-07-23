@@ -53,20 +53,20 @@ localizedDates = false
 title = "Lena Maria Kosack"
 author = "Kevin Frey"
 shorttags = "Sopranistin · Chorische Stimmbildung · Gesangsunterricht · Sprechtraining"
-description = "Hallo! Ich bin Lena!"
-profilePicture = "lena.jpg"
+description = "Hallo! Ich bin Lena! \n Diese Website ist zur Zeit noch im Aufbau! Schau doch später nochmal vorbei \n <h1>😊🚧</h1>"
+profilePicture = "images/lena.jpg"
 favicon = "favicons/"
 # example ["css/custom.css"]
 customCss = []
 # example ["js/custom.js"]
 customJs = [] 
 mainSections = ["concerts"]
-doNotLoadAnimations = false
+doNotLoadAnimations = true
 # Form Spree Contact Form
 #contactFormAction = "https://formspree.io/f/your-form-hash-here"
 #contactFormReCaptcha = "your-site-key-here"
 # Google Fonts
-#googleFonts = ["Indie+Flower", "Roboto:ital,wght@0,100;0,400;0,700;1,400"]
+googleFonts = ["Great+Vibes"]
 # Google Site Verify
 #googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 singleDateFormat = "2/1/2006"
@@ -88,7 +88,7 @@ url = "https://www.instagram.com/soprano_concert_earlymusic/?hl=de"
 [[params.socialIcons]]
 icon = "fas fa-envelope"
 title = "e-mail"
-url = "mailto:lenamaria.kosack@gmx.de"
+url = "mailto:example@gmx.de"
 
 [menu]
 
@@ -114,7 +114,7 @@ url = "mailto:lenamaria.kosack@gmx.de"
   name = "Engagements"
   weight = 400
   identifier = "engagements"
-  url = "/engagements/"
+  url = "/portfolio/"
 
   [[menu.main]]
   name = "Rezenzionen"

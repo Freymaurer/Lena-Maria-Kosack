@@ -23,3 +23,10 @@ $content-max-width: calc(#{$body-max-width} * #{$content-ratio});
 $sidebar-max-width: calc(#{$body-max-width} - #{$content-max-width});
 $content-width: calc(#{$content-ratio} * 100%);
 $sidebar-width: calc(#{$sidebar-ratio} * 100%);
+
+$my-primary: #B71C1C;
+$my-primary-light: #EF5350;
+$my-primary-lighter: #FFCDD2;
+$my-accent: #FFB300;
+$my-white: #FAFAFA;
+$my-black: #222222;

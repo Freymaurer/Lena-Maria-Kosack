@@ -1,6 +1,6 @@
 .header {
   @include themed() {
-    background-color: t('accent');
+    background-color: t('primary');
   }
   width: 100%;
   position: fixed;

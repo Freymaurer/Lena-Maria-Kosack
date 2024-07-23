@@ -63,12 +63,17 @@
       text-transform: uppercase;
       font-weight: lighter;
       letter-spacing: 0.5px;
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       font-family: 'Helvetica Neue', Arial, sans-serif;
+
+      @include themed() {
+        color: t('primary');
+      }
     }
 
     &-title {
-      text-transform: uppercase;
+      font-family: "Great Vibes", cursive;
+      // text-transform: uppercase;
       font-weight: bold;
       letter-spacing: 2px;
       line-height: 1;
