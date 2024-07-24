@@ -1,5 +1,5 @@
 .nav {
-  $py-desktop: 24px;
+  $py-desktop: 22px;
 
   display: none;
 
@@ -68,7 +68,7 @@
 
       @include desktop {
         @include themed() {
-          border-bottom: 1px solid t('primary-lighter');
+          border-bottom: 2px solid t('primary-lighter');
         }
       }
     }

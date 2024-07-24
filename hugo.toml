@@ -61,7 +61,7 @@ customCss = []
 # example ["js/custom.js"]
 customJs = [] 
 mainSections = ["concerts"]
-doNotLoadAnimations = true
+doNotLoadAnimations = false
 # Form Spree Contact Form
 #contactFormAction = "https://formspree.io/f/your-form-hash-here"
 #contactFormReCaptcha = "your-site-key-here"
