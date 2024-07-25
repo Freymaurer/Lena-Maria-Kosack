@@ -8,6 +8,7 @@ title = 'Lena-Maria-Kosack'
 # theme as git submodule
 theme = "anatole"
 
+relativeURLs = true
 summarylength = 10
 enableEmoji = true
 enableRobotsTXT = true
