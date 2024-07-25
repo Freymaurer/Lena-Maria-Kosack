@@ -1,4 +1,4 @@
-baseURL = 'https://freymaurer.github.io/Lena-Maria-Kosack/'
+baseURL = '//freymaurer.github.io/Lena-Maria-Kosack/'
 languageCode = 'de-de'
 DefaultContentLanguage = "de"
 title = 'Lena-Maria-Kosack'
