@@ -113,7 +113,7 @@ url = "mailto:example@gmx.de"
   name = "Booking"
   weight = 400
   identifier = "booking"
-  url = "/portfolio/"
+  url = "/booking/"
 
   [[menu.main]]
   name = "Rezenzionen"
