@@ -12,4 +12,4 @@ tags:
 
 Ein kleines Konzert !
 
-![](/Lena-Maria-Kosack/images/fyler/Serenadenplakat.jpg)
+<img src="/Lena-Maria-Kosack/images/fyler/Serenadenplakat.jpg" alt="Alt text" style="height: 400px">
