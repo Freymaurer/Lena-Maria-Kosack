@@ -32,7 +32,23 @@
     </div>
   {{ end }}
 
-  {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+  {{/* Filter by type (mainSections) */}}
+  {{ $filteredItems := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+
+  {{/* Filter by future dates */}}
+  {{ $futureItems := where $filteredItems "Date" ">" now }}
+  {{ $nextThreeFutureItems := last 3 (sort $futureItems "Date" "desc") }}
+
+  {{/* Filter by past dates */}}
+  {{ $pastItems := where $filteredItems "Date" "<=" now }}
+  {{ $sortedPastItems := sort $pastItems "Date" "desc" }}
+
+  {{/* Combine future and past items */}}
+  {{ $combinedItems := union $nextThreeFutureItems $sortedPastItems }}
+
+  {{/* Paginate the combined list */}}
+  {{ $paginator := .Paginate $combinedItems }}
+
   {{ range $paginator.Pages }}
     <div
       class="post {{ with .Site.Params.doNotLoadAnimations }}
