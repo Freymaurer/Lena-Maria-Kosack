@@ -32,8 +32,14 @@
       white-space: nowrap;
       padding-top: 24px;
 
+      a {
+        @include themed() {
+          color: t('text');
+        }
+      }
+
       @include themed() {
-        color: t('primary');
+        color: t('text');
       }
 
       @include desktop {

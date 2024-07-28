@@ -123,3 +123,22 @@ url = "mailto:lenamaria.kosack@gmx.de"
   weight = 500
   identifier = "rezenzionen"
   url = "/rezenzionen/"
+
+  [[menu.main]]
+  name = "Mehr"
+  weight = 600
+  identifier = "mehr"
+
+  [[menu.main]]
+  name = "Impressum"
+  weight = 610
+  identifier = "Impressum"
+  url = "/impressum/"
+  parent = "mehr"
+
+  [[menu.main]]
+  name = "Privacy Policy"
+  weight = 620
+  identifier = "PrivacyPolicy"
+  url = "/privacypolicy/"
+  parent = "mehr"
