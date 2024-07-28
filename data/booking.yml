@@ -1,22 +1,28 @@
 portfolioitems:
   # portfolio category
-  - title: Coding Projects
-    description: 'All my coding projects'
+  - 
+    # title: Booking
+    # description: 'All my coding projects'
     portfolioitem:
       - name: Project 1
         image: 'images/portfolio/exampleImage.jpg'
-        link: https://gohugo.io/
-        linktext: 'Visit project website'
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        link: mailto:lenamaria.kosack@gmx.de
+        linktext: 'Kontaktiere mich!'
+        description: '
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+ut labore et **dolore** magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+- 1
+- 2'
         tags:
           - Tag 1
           - Tag 2
-        status: 'Finished'
-        start: '2020'
-        end: '2021'
-        authors:
-          - lxndrblz
-          - alexanderdavide
+        status: 'Offen für Anfragen'
+        # start: '2020'
+        # end: '2021'
+        # authors:
+        #   - lxndrblz
+        #   - alexanderdavide
       - name: Project 2
         image: '/images/portfolio/code.jpg'
         link: https://gohugo.io/
@@ -32,27 +38,27 @@ portfolioitems:
         tags:
           - Tag 1
           - Tag 2
-  # portfolio category
-  - title: Research
-    description: 'All my research projects'
-    portfolioitem:
-      - name: Project 1
-        image: '/images/portfolio/code.jpg'
-        description: 'This project does not have a link attribute'
-        tags:
-          - Tag 1
-          - Tag 2
-      - name: Project 2
-        image: '/images/portfolio/code.jpg'
-        link: https://gohugo.io/
-        description: 'You can click on [**this link**](#codingprojects) to scroll to my Coding Projects portfolio'
-        tags:
-          - Tag 1
-          - Tag 2
-      - name: Project 3
-        image: '/images/portfolio/code.jpg'
-        link: https://gohugo.io/
-        description: 'A description'
-        tags:
-          - Tag 1
-          - Tag 2
+  # # portfolio category
+  # - title: Research
+  #   description: 'All my research projects'
+  #   portfolioitem:
+  #     - name: Project 1
+  #       image: '/images/portfolio/code.jpg'
+  #       description: 'This project does not have a link attribute'
+  #       tags:
+  #         - Tag 1
+  #         - Tag 2
+  #     - name: Project 2
+  #       image: '/images/portfolio/code.jpg'
+  #       link: https://gohugo.io/
+  #       description: 'You can click on [**this link**](#codingprojects) to scroll to my Coding Projects portfolio'
+  #       tags:
+  #         - Tag 1
+  #         - Tag 2
+  #     - name: Project 3
+  #       image: '/images/portfolio/code.jpg'
+  #       link: https://gohugo.io/
+  #       description: 'A description'
+  #       tags:
+  #         - Tag 1
+  #         - Tag 2

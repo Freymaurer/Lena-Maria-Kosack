@@ -1,4 +1,4 @@
-baseURL = '//freymaurer.github.io/Lena-Maria-Kosack/'
+baseURL = '//lena-maria-kosack.github.io/Lena-Maria-Kosack/'
 languageCode = 'de-de'
 DefaultContentLanguage = "de"
 title = 'Lena-Maria-Kosack'
@@ -87,7 +87,7 @@ url = "https://www.instagram.com/soprano_concert_earlymusic/?hl=de"
 [[params.socialIcons]]
 icon = "fas fa-envelope"
 title = "e-mail"
-url = "mailto:example@gmx.de"
+url = "mailto:lenamaria.kosack@gmx.de"
 
 [menu]
 
