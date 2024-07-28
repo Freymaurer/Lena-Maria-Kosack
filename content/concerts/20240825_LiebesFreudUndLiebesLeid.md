@@ -10,6 +10,6 @@ tags:
   - gesang
 ---
 
-Ein kleines Konzert 
+Ein kleines Konzert !
 
 ![](/Lena-Maria-Kosack/images/fyler/Serenadenplakat.jpg)
